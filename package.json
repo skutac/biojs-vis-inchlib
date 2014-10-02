@@ -1,7 +1,7 @@
 {
   "name": "biojs-vis-inchlib",
   "description": "Interactive Cluster Heatmap library",
-  "version": "1.1.1000",
+  "version": "1.1.10000",
   "homepage": "https://github.com/skutac/biojs-vis-inchlib",
   "author": {
     "name": "Ctibor Škuta",
