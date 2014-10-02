@@ -4,7 +4,7 @@ var inchlib = new InCHlib({"target": "inchlib",
 							"draw_row_ids": true,
 							"metadata_colors": "RdLrBu",
 							 text: 'biojs'});
-inchlib.read_data_from_file("data/data.json");
+inchlib.read_data_from_file("./data/data.json");
 inchlib.draw();
 
 // inchlib.on("all", function(eventName) {
