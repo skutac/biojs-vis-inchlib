@@ -1,7 +1,7 @@
 {
   "name": "biojs-vis-inchlib",
   "description": "Interactive Cluster Heatmap library",
-  "version": "1.1.10",
+  "version": "1.1.100",
   "homepage": "https://github.com/skutac/biojs-vis-inchlib",
   "author": {
     "name": "Ctibor Škuta",
@@ -31,7 +31,10 @@
     "watch": "gulp watch"
   },
   "dependencies": {
-    "biojs-events": "0.0.4"
+    "biojs-events": "0.0.4",
+    "backbone": "1.1.2",
+    "jquery": "2.0.3",
+    "kinetic": "5.1.0"
   },
   "devDependencies": {
     "biojs-sniper": "^0.0.4",
