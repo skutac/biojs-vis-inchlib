@@ -1,157 +1,18 @@
-  {
-      /**
-        * @name InCHlib#row_onclick
-        * @event
-        * @param {function} function() callback function for click on the heatmap row event
-        * @eventData {array} array array of object IDs represented by row
-        * @eventData {object} event event object
-        * 
-        */
-      "row_onclick": "callback function for click on the heatmap row event",
-
-      /**
-        * @name InCHlib#row_onmouseover
-        * @event
-        * @param {function} function() callback function for mouse cursor over the heatmap row event
-        * @eventData {array} array array of object IDs represented by row
-        * @eventData {object} event event object
-        * 
-        */
-      "row_onmouseover": "callback function for mouse cursor over the heatmap row event",
-
-      /**
-        * @name InCHlib#row_onmouseout
-        * @event
-        * @param {function} function() callback function for mouse cursor out of the heatmap row event
-        * @eventData {object} event event object
-        * 
-        */
-      "row_onmouseout": "callback function for mouse cursor out of the heatmap row event",
-
-      /**
-        * @name InCHlib#dendrogram_node_onclick
-        * @event
-        * @param {function} function() callback function for dendrogram node click event
-        * @eventData {array} array array of object IDs represented by the node
-        * @eventData {string} node_id Id of the dendrogram node
-        * @eventData {object} event event object
-        * 
-        */
-      "dendrogram_node_onclick": "callback function for dendrogram node click event",
-
-      /**
-        * @name InCHlib#column_dendrogram_node_onclick
-        * @event
-        * @param {function} function() callback function for column dendrogram click event
-        * @eventData {array} array array of column indexes
-        * @eventData {string} node_id Id of the dendrogram node
-        * @eventData {object} event event object
-        * 
-        */
-      "column_dendrogram_node_onclick": "callback function for column dendrogram click event",
-
-      /**
-        * @name InCHlib#dendrogram_node_highlight
-        * @event
-        * @param {function} function() callback function for the dendrogram node highlight event
-        * @eventData {array} array array of object IDs represented by row
-        * @eventData {string} node_id Id of the dendrogram node
-        * @eventData {object} event event object
-        * 
-        */
-      "dendrogram_node_highlight": "callback function for the dendrogram node highlight event",
-
-      /**
-        * @name InCHlib#column_dendrogram_node_highlight
-        * @event
-        * @param {function} function() callback function for the column dendrogram node highlight event
-        * @eventData {array} array array of column indexes
-        * @eventData {string} node_id Id of the dendrogram node
-        * @eventData {object} event event object
-        * 
-        */
-      "column_dendrogram_node_highlight": "callback function for the column dendrogram node highlight event",
-
-      /**
-        * @name InCHlib#dendrogram_node_unhighlight
-        * @event
-        * @param {function} function() callback function for the dendrogram node unhighlight event
-        * @eventData {string} node_id Id of the dendrogram node
-        * 
-        */
-      "dendrogram_node_unhighlight": "callback function for the dendrogram node unhighlight event",
-
-      /**
-        * @name InCHlib#column_dendrogram_node_unhighlight
-        * @event
-        * @param {function} function() callback function for the column dendrogram node unhighlight event
-        * @eventData {string} node_id Id of the column dendrogram node
-        * 
-        */
-        "column_dendrogram_node_unhighlight": "callback function for the column dendrogram node unhighlight event",
-
-      /**
-        * @name InCHlib#heatmap_onmouseout
-        * @event
-        * @param {function} function() callback function for mouse cursor out of the heatmap area
-        * @eventData {object} event event object
-        * 
-        */
-      "heatmap_onmouseout": "callback function for mouse cursor out of the heatmap area",
-
-      /**
-        * @name InCHlib#on_zoom
-        * @event
-        * @param {function} function() callback function for zoom event
-        * @eventData {string} node_id Id of the dendrogram node
-        * 
-        */
-      "on_zoom": "callback function for zoom event",
-
-      /**
-        * @name InCHlib#on_unzoom
-        * @event
-        * @param {function} function() callback function for unzoom event
-        * @eventData {string} node_id Id of the dendrogram node
-        * 
-        */
-      "on_unzoom": "callback function for unzoom event",
-
-      /**
-        * @name InCHlib#on_columns_zoom
-        * @event
-        * @param {function} function() callback function for columns zoom event
-        * @eventData {array} array array of column indexes
-        * @eventData {string} node_id Id of the column dendrogram node
-        * 
-        */
-      "on_columns_zoom": "callback function for columns zoom event",
-
-      /**
-        * @name InCHlib#on_columns_unzoom
-        * @event
-        * @param {function} function() callback function for columns unzoom event
-        * @eventData {string} node_id Id of the column dendrogram node
-        * 
-        */
-      "on_columns_unzoom": "callback function for columns unzoom event",
-
-      /**
-        * @name InCHlib#on_refresh
-        * @event
-        * @param {function} function() callback function for refresh icon click event
-        * @eventData {object} event event objec
-        * 
-        */
-      "on_refresh": "callback function for refresh icon click event",
-
-      /**
-        * @name InCHlib#empty_space_onclick
-        * @event
-        * @param {function} function() callback function for click on empty(inactive) space in the visualization (e.g., around the heatmap)
-        * @eventData {object} event event object
-        * 
-        */
-      "empty_space_onclick": "callback function for click on empty(inactive) space in the visualization (e.g., around the heatmap)"
-
-  }
+{
+  "row_onclick": "callback function for click on the heatmap row event",
+  "row_onmouseover": "callback function for mouse cursor over the heatmap row event",
+  "row_onmouseout": "callback function for mouse cursor out of the heatmap row event",
+  "dendrogram_node_onclick": "callback function for dendrogram node click event",
+  "column_dendrogram_node_onclick": "callback function for column dendrogram click event",
+  "dendrogram_node_highlight": "callback function for the dendrogram node highlight event",
+  "column_dendrogram_node_highlight": "callback function for the column dendrogram node highlight event",
+  "dendrogram_node_unhighlight": "callback function for the dendrogram node unhighlight event",
+  "column_dendrogram_node_unhighlight": "callback function for the column dendrogram node unhighlight event",
+  "heatmap_onmouseout": "callback function for mouse cursor out of the heatmap area",
+  "on_zoom": "callback function for zoom event",
+  "on_unzoom": "callback function for unzoom event",
+  "on_columns_zoom": "callback function for columns zoom event",
+  "on_columns_unzoom": "callback function for columns unzoom event",
+  "on_refresh": "callback function for refresh icon click event",
+  "empty_space_onclick": "callback function for click on empty(inactive) space in the visualization (e.g., around the heatmap)"
+}
